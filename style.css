@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;1,300&display=swap');
+ 
+*
+{
+    margin: 0;
+    padding: 0; 
+    box-sizing:border-box ;
+}
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0,1);
+
+}
+.container .left-side 
+{ 
+    position: relative;
+    background: #003147;
+    padding: 40px;
+
+}
+.profiletext
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px; 
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+
+}
+ .profiletext .imgbox
+ {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+ }
+ .profiletext .imgbox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+ .profiletext h2
+ {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+ }
+
+ .profiletext h2 span{
+    font-size :0.8em;
+    font-weight: 300;
+ }
+
+ .ContactInfo
+ {
+    padding: top 40px;
+
+ }
+ .title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+ }
+ .ContactInfo u1
+{
+    position: relative;
+}
+.ContactInfo ul li{
+    list-style: none;
+margin: 10px 0;
+cursor: pointer;
+}
+.ContactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.ContactInfo ul  span{
+    color: #fff;
+    font-weight: 300;
+}
+.contactInfo .Education ul
+{
+    margin: 15px;
+
+}
+.contactInfo .Education  h5{
+    color:#03a9f4;
+    font-weight: 500;
+}
+.contactInfo .Education  h4:nth-child(2){
+    color:#fff;
+    font-weight: 500;
+}
+.contactInfo .Education  h3{
+    color:#fff;
+    font-weight: 300;
+}
+.contactInfo .language .percent
+{
+    position: relative;
+    width: 100px;
+    height: 6px;
+    background: #f00;
+    display: block;
+    margin-top: 5px;
+}
+.contactInfo .language .percent div
+{
+    position: absolute;
+   top:0;
+
+}
+
+.container .right-side 
+{   position: relative;
+    background: #fff;
+    padding: 40px;
+
+}
+.about
+{margin-bottom: 50px;
+}
+.about:last-child
+{
+    margin-bottom: 0px;
+}
+.title2
+{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p{
+    color:#333;
+
+}
+.about .imgbox{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about.box .year-company
+{
+    min-width: 150px;
+}
